@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            margin: 0;
+            padding: 50px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .success {
+            background: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Success!</h1>
+        <p>If you can see this page, the deployment is working!</p>
+        <div class="success">✅ Basic HTML/CSS is functioning</div>
+        <p>This is a simple test page to verify deployment.</p>
+    </div>
+    
+    <script>
+        console.log('Test page loaded successfully!');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM fully loaded');
+        });
+    </script>
+</body>
+</html>
